@@ -1,23 +1,18 @@
-/* assets/CSS/Parcial.css */
-
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Tipografía */
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f5f0e6;
     color: #333333;
     line-height: 1.6;
 }
 
-/* Barra de navegación */
 .nav {
-    background-color: #2c3e50;
+    background-color: #964B00;
     color: white;
     padding: 1.5rem 2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -30,7 +25,6 @@ body {
     letter-spacing: 0.5px;
 }
 
-/* Contenido principal */
 .texto {
     max-width: 900px;
     margin: 2rem auto;
@@ -77,7 +71,6 @@ body {
     padding-bottom: 0.5rem;
 }
 
-/* Comentarios */
 .comentarios {
     max-width: 900px;
     margin: 2rem auto;
@@ -103,7 +96,6 @@ body {
     font-size: 1rem;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .texto, .comentarios {
         padding: 1rem;
